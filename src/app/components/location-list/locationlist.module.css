@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&family=Nunito:wght@300&display=swap');
+
+.icon_container {
+    width: 45%;
+    height: 130px;
+    border: solid 2px gray;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+}
+
+.clicked {
+    border-color: #1856d2;
+}
+
+.clicked_icon {
+    color: #1856d2;
+}
+
+.icon_container p {
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Nunito";
+}
+
+.icon {
+    font-size: 60px;
+    color: #000
+}
+
+.location_list_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}

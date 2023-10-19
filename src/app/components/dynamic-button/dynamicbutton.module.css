@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&family=Nunito:wght@300&display=swap');
+
+.dymaic_button {
+    cursor: pointer;
+    width: auto;
+    padding: 0px 10px;
+    height: 50px;
+    background-color: #1757d4;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-family: "Nunito";
+    border-radius: 12px;
+    transition: all 0.5s;
+}
+
+.dymaic_button:hover {
+    background-color: #0b3c9c;
+}
+
+.icon {
+    font-size: 25px;
+    color: #fff !important;
+}

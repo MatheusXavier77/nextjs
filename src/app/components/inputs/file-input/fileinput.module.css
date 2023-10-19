@@ -1,0 +1,30 @@
+.file {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.container_file {
+    display: flex;
+    padding: 16px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+    border-radius: 12px;
+    color: gray;
+}
+
+.subtitle {
+    text-decoration: underline;
+}
+
+.gallery_icon {
+    color: gray;
+    font-size: 4rem;
+}

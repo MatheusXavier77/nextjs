@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&family=Nunito:wght@300&display=swap');
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  height: 100vh;
+  background-color: #dce3eb;
+  font-family:'Nunito Sans', sans-serif;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 80%;
+  height: 85%;
+}
+
+.card1 {
+  border-radius: 16px 0px 0px 16px
+}
+
+.card2 {
+  border-radius: 0px 16px 16px 0px
+}
+
+.details_adrress {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.detail_line {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.detail_line p {
+  color: grey;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+}
+
+.button_location {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 50%;
+}
+
+.adress_container {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.text_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.text_container textarea {
+  resize: none;
+  height: 200px;
+  width: 100%;
+  border-radius: 18px;
+  border: 1.5px solid grey;
+  padding: 12px;
+  font-size: 12px;
+  font-family: "Nunito";
+  background-color: transparent;
+  color: #000
+}
+
+.text_container textarea:focus {
+  outline: none;
+}
+
+.label_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: grey;
+  font-size: 12px;
+}
